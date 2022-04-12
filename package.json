@@ -1,5 +1,29 @@
 {
-  "dependencies": {
+  "name": "coursera",
+  "version": "1.0.0",
+  "description": "test folder",
+  "main": "aboutus.js",
+  "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+    "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyili/coursera.git"
+  },
+  "author": "Heyi Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyili/coursera/issues"
+  },
+  "homepage": "https://github.com/heyili/coursera#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }
